@@ -4,7 +4,10 @@ import cors from "cors";
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const allowedOrigings = ["http://localhost:4200"];
+const allowedOrigings = [
+  "http://localhost:4200",
+  "https://frontend-q637.onrender.com",
+];
 app.use(
   cors({
     origin: allowedOrigings,
