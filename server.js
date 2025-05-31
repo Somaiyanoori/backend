@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001;
 
 const allowedOrigings = [
   "http://localhost:4200",
-  "https://frontend-q637.onrender.com",
+  "https://frontend-1-ktcy.onrender.com",
 ];
 app.use(
   cors({
